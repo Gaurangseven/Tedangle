@@ -1,0 +1,4 @@
+#Wed Aug 17 10:32:01 IST 2022
+base.0=C\:\\Users\\ConorK7\\StudioProjects\\Tedangle\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

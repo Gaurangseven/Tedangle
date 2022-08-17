@@ -81,12 +81,13 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                       child: Align(
                         // alignment: Alignment.topLeft,
                         child: Container(
+                          child: Image.asset('assets/java.png'),
                           decoration: const BoxDecoration(
                             borderRadius: BorderRadius.all(Radius.circular(40)),
-                            color: Colors.green,
+                              color: Color(0xff112B3C)
                           ),
-                          height: 70.0,
-                          width: 70.0,
+                          height: 75.0,
+                          width: 75.0,
                         ),
                       ),
                     ),
@@ -96,12 +97,13 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                     child: Transform.translate(
                       offset: Offset(-10, 70),
                       child: Container(
+                        child: Image.asset('assets/python.png'),
                         decoration: const BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(40)),
-                          color: Colors.green,
+                            color: Color(0xff112B3C)
                         ),
-                        height: 70.0,
-                        width: 70.0,
+                          height: 75.0,
+                          width: 75.0,
                       ),
                     ),
                   ),
@@ -110,12 +112,13 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                     child: Transform.translate(
                       offset: Offset(-60, -40),
                       child: Container(
+                        child: Image.asset('assets/kotlin.png'),
                         decoration: const BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(40)),
-                          color: Colors.green,
+                          color: Color(0xff112B3C),
                         ),
-                        height: 70.0,
-                        width: 70.0,
+                        height: 80.0,
+                        width: 80.0,
                       ),
                     ),
                   ),
@@ -145,12 +148,13 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                   child: Align(
                     // alignment: Alignment.topLeft,
                     child: Container(
+                      child: Image.asset('assets/react.png'),
                       decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(40)),
-                        color: Colors.green,
+                          color: Color(0xff112B3C)
                       ),
-                      height: 70.0,
-                      width: 70.0,
+                      height: 75.0,
+                      width: 75.0,
                     ),
                   ),
                 ),
@@ -160,12 +164,13 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                 child: Transform.translate(
                   offset: Offset(150, -0),
                   child: Container(
+                    child: Image.asset('assets/nodejs.png'),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(40)),
-                      color: Colors.green,
+                        color: Color(0xff112B3C)
                     ),
-                    height: 70.0,
-                    width: 70.0,
+                    height: 75.0,
+                    width: 75.0,
                   ),
                 ),
               ),
@@ -174,12 +179,13 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                 child: Transform.translate(
                   offset: Offset(0, -150),
                   child: Container(
+                    child: Image.asset('assets/flutter.png'),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(40)),
-                      color: Colors.green,
+                        color: Color(0xff112B3C)
                     ),
-                    height: 70.0,
-                    width: 70.0,
+                    height: 75.0,
+                    width: 75.0,
                   ),
                 ),
               ),
@@ -188,12 +194,13 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                 child: Transform.translate(
                   offset: Offset(0, 150),
                   child: Container(
+                    child: Image.asset('assets/javascript.png'),
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(40)),
-                      color: Colors.green,
+                      color: Color(0xff112B3C),
                     ),
-                    height: 70.0,
-                    width: 70.0,
+                    height: 75.0,
+                    width: 75.0,
                   ),
                 ),
               ),
